@@ -1,0 +1,27 @@
+THOUGHTS ON MENU WEBSITE:
+
+5/5
+After looking at 30 websites and compiling data, here is what should be considered:
+- Probably no prices on the website		
+only 10 of the 30 had the prices listed,
+that being said, the ones that had the prices tended to be the smaller restaurants that weren't large companies.,
+so maybe prices should be shown
+- descriptions under each product
+usually there was only a description if there was ambiguity,
+noone is gonna wonder why there is no description for a pepperoni pizza, 
+but they will want to know about a niche product or a product where the name isn't helpful enough to the customer,
+pretty much every product of ours fits those 2.
+- Have sections for sweets, savories, beverages, etc
+Doesn't have to be those specific sections, but there needs to be sections,
+literally every website was sectioned like this.
+- change from text on the side to text below the picture.
+Only 4 of the 30 websites had text on the side of the picture, and one of those was a list style menu
+- Continuing from above, there should be at least 3 products per row, not 2
+Since the text is going below the pictures, more products can now be fit on each row
+- Consider having website change from info below back to info to the side dynamically based on page size
+panda express does this, when the web page is at max size it is info below, but if it shrinks enough, it becomes info to the side.
+Additionally, if someone is looking on their found it might be a good idea to be info the the side
+- keep uniformity among products
+if one product has a picture next to it, they all need to,
+And they all need to be the same size so one section isn't bigger than the other,
+there is an option to only have 2-3 pictures at the top
