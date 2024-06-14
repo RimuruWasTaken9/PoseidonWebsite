@@ -1,0 +1,66 @@
+
+  <div id="footer-container">
+    <div class="social">
+      <a href="https://www.facebook.com/PoseidonBakeryNYC" target="_blank"> <img src="./html/images/facebook2.png"
+          alt="Facebook Link"></a>
+      <a href="https://twitter.com/PoseidonBakery" target="_blank"> <img src="./html/images/twitter2.png"
+          alt="Twitter Link"></a>
+      <a href="http://instagram.com/poseidonbakery#" target="_blank"> <img src="html/images/instagram2.png"
+          alt="instagram Link"></a>
+    </div>
+    <div class="copyright">
+      <script type="text/javascript">
+        now = new Date();
+        year = now.getFullYear(); 
+      </script>
+      &copy;
+      <script type="text/javascript">
+        document.write(year);
+      </script> POSEIDON BAKERY
+    </div>
+
+  </div>
+  <hr />
+  <div id="footer-container">
+    <div class="social">
+      <a href="https://www.facebook.com/PoseidonBakeryNYC" target="_blank"> <img src="./html/images/facebook.png"
+          alt="Facebook Link"></a>
+      <a href="https://twitter.com/PoseidonBakery" target="_blank"> <img src="./html/images/twitter.png"
+          alt="Twitter Link"></a>
+      <a href="http://instagram.com/poseidonbakery#" target="_blank"> <img src="html/images/instagram.png"
+          alt="instagram Link"></a>
+    </div>
+    <div class="copyright">
+      <script type="text/javascript">
+        now = new Date();
+        year = now.getFullYear(); 
+      </script>
+      &copy;
+      <script type="text/javascript">
+        document.write(year);
+      </script> POSEIDON BAKERY
+    </div>
+  </div>
+  <hr />
+  <div id="footer-container">
+    <div class="social">
+      <a href="https://www.facebook.com/PoseidonBakeryNYC" target="_blank"> <img src="./html/images/facebook3.png"
+          alt="Facebook Link"></a>
+      <a href="https://twitter.com/PoseidonBakery" target="_blank"> <img src="./html/images/twitter3.png"
+          alt="Twitter Link"></a>
+      <a href="http://instagram.com/poseidonbakery#" target="_blank"> <img src="html/images/instagram3.png"
+          alt="instagram Link"></a>
+    </div>
+    <div class="copyright">
+      <script type="text/javascript">
+        now = new Date();
+        year = now.getFullYear(); 
+      </script>
+      &copy;
+      <script type="text/javascript">
+        document.write(year);
+      </script> POSEIDON BAKERY
+    </div>
+
+  </div>
+<hr />
