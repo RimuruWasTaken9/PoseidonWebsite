@@ -7,32 +7,95 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="html/css/style.css" media="all">
   <style>
+    .kalam-light {
+      font-family: "Kalam", cursive;
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    .kalam-regular {
+      font-family: "Kalam", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .kalam-bold {
+      font-family: "Kalam", cursive;
+      font-weight: 700;
+      font-style: normal;
+    }
+    h2 {
+      font-weight: 600;
+    }
+    #about h1,h2,h3,h4,p {
+      color: #00529b;
+      font-family: 'kalam-bold', cursive;
+    }
+  #footer p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  } 
+
     .section {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
     }
+
     .section img {
-        max-height: 100%;
-        object-fit: cover;
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
     }
-    .section .text-center {
-        background: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        border-radius: 10px;
+
+    .text {
+      background-image: url("./html/images/dirty-white.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      text-align: center;
+      margin: 30px;
+      padding: 10px;
+
     }
-</style>
+
+    .section2 h2,
+    h3,
+    p {
+      text-align: center;
+    }
+
+    .full-page-image {
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .no-gap {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container-fluid {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <div id="header">
       <nav class="navbar navbar-expand-md navbar bg">
-        <div class="container-fluid test">
+        <div class="container-fluid min-center">
           <div class="col-md-3 mb-2 mb-md-0 justify-content-center">
             <a href="./index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
               <img src="html/images/poseidonLogo.jpg" class="logo" alt="Poseidon Bakery Logo">
@@ -45,10 +108,10 @@
 
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav container-fluid justify-content-end me-auto mb-2 mb-md-0">
-              <li class="nav-item"><a href="./index.html" class="nav-link px-5  link-secondary">HOME</a></li>
+              <li class="nav-item"><a href="./index.html" class="nav-link px-5  text-body-emphasis">HOME</a></li>
               <li class="nav-item"><a href="./Menu.html" class="nav-link px-5  text-body-emphasis"
                   style="color: #00529b;">MENU</a></li>
-              <li class="nav-item"><a href="./About.html" class="nav-link px-5  text-body-emphasis"
+              <li class="nav-item"><a href="./About.html" class="nav-link px-5 link-secondary"
                   style="color: #00529b;">ABOUT US</a></li>
             </ul>
           </div>
@@ -59,151 +122,195 @@
 
   <div id="about">
     <div id="mural" class="container-fluid col-12">
-        <div class="row section">
-            <div class="col-6">
-                <div class="text-center">
-                    <h2>1923</h2>
-                    <h3>Poseidon Opens!</h3>
-                    <p>Demetrius Anagnostou arrives in NYC</p>
-                    <h2>1930s</h2>
-                    <p>His son, Micheal takes over!</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <img src="./html/images/mural/mu1.png"
-                     alt="1st mural picture of statue of liberty with greek flag as background">
-            </div>
-        </div>
-        <div class="row section">
-            <div class="col-12 text-center">
-                <img src="./html/images/mural/mu2-mu3.png"
-                     alt="2nd and 3rd mural picture of greece and athens linked together and the original poseidon bakery at 41st street">
-            </div>
-        </div>
-        <div class="row section">
-            <div class="col-6">
-                <div class="text-center">
-                    <h2>1940</h2>
-                    <h3>Michael & Wife Menino continue tradition</h3>
-                    <p>Menina introduces her family's Austrian strudels</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="text-center">
-                    <h2>1950</h2>
-                    <h3>Poseidon is uprooted by Port Authority</h3>
-                    <p>Moves to its current location on Ninth Avenue</p>
-                </div>
-            </div>
-        </div>
-        <div class="row section">
-            <div class="col-6">
-                <img src="./html/images/mural/mu4.png" alt="4th mural picture of inside of current bakery">
-            </div>
-            <div class="col-6">
-                <div class="text-center">
-                    <h2>1957</h2>
-                    <h3>Sons John & Anthony join the family business</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-      <div class="my-5" id="footer">
-
-        <div class="text-white text-center text-lg-start" id="footer-container">
-          <!-- Grid container -->
-          <div class="container p-4">
-            <div class="row mt-4">
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-12 mb-4 mb-md-0 about-text">
-                <h5 class="text-uppercase mb-4">About company</h5>
-                <p>
-                  The <span>Poseidon Bakery</span>, founded in 1923, began supplying New York with
-                  authentic treats from ancient Greece.
-                </p>
-                <p>
-                  Today, the <span>Poseidon Bakery</span> is one of New York's authentic family run
-                  businesses. Generations have passed, and the neighborhood has changed, but the delicacies at the
-                  bakery
-                  have remained the same.
-                </p>
-
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-4 pb-1">CONTACT US</h5>
-                <ul class="icon-list fa-ul ">
-                  <li class="mb-3 home-icon">
-                    <span class="ms-2">629 9th Avenue, New York, NY,
-                      10036</span>
-                  </li>
-                  <a href="mailto:Paul@POSEIDONBAKERY.COM" style="color: inherit; text-decoration: none;">
-                    <li class="mb-3 email-icon">
-                      <span class="ms-2">Paul@POSEIDONBAKERY.COM</span>
-                    </li>
-                  </a>
-                  <li class="mb-3 phone-icon">
-                    <span class="ms-2">212-757-6173</span>
-                  </li>
-
-                </ul>
-
-                <div class="social my-4">
-                  <a href="https://www.facebook.com/PoseidonBakeryNYC" target="_blank"> <img
-                      src="./html/images/facebook3.png" alt="Facebook Link"></a>
-                  <a href="https://twitter.com/PoseidonBakery" target="_blank"> <img src="./html/images/twitter3.png"
-                      alt="Twitter Link"></a>
-                  <a href="http://instagram.com/poseidonbakery#" target="_blank"> <img src="html/images/instagram3.png"
-                      alt="instagram Link"></a>
-                </div>
-              </div>
-              <!--Grid column-->
-
-              <!--Grid column-->
-              <div class="col-lg-4 col-md-12 mb-4 mb-md-0 hours">
-                <h5 class="text-uppercase mb-4">Operating hours</h5>
-
-                <table class="table text-center text-white">
-                  <tbody class="font-weight-normal">
-                    <tr>
-                      <td>Tue-Sat:</td>
-                      <td>10am - 6pm</td>
-                    </tr>
-                    <tr>
-                      <td>Sun-Mon:</td>
-                      <td>Closed</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--Grid column-->
-            </div>
-            <div class="copyright my-2">
-              <script type="text/javascript">
-                now = new Date();
-                year = now.getFullYear(); 
-              </script>
-              &copy;
-              <script type="text/javascript">
-                document.write(year);
-              </script> POSEIDON BAKERY
-            </div>
+      <div class="row section">
+        <div class="col-6">
+          <div class="text">
+            <h2>1923</h2>
+            <h3>Poseidon Opens!</h3>
+            <p>Demetrius Anagnostou arrives in NYC</p>
+            <h2>1930s</h2>
+            <p>His son, Micheal takes over!</p>
           </div>
-          <!-- Grid container -->
-
+        </div>
+        <div class="col-6">
+          <img src="./html/images/mural/mu1.png"
+            alt="1st mural picture of statue of liberty with greek flag as background">
+        </div>
+      </div>
+      <div class="row section2 py-0">
+        <div class="col-12">
+          <img src="./html/images/mural/mu2-mu3.png" class="full-page-image"
+            alt="2nd and 3rd mural picture of greece and athens linked together and the original poseidon bakery at 41st street">
+        </div>
+      </div>
+      <div class="row no-gap">
+        <div class="col-6">
+          <div class="text section2">
+            <h2>1940</h2>
+            <h3>Michael & Wife Menino continue tradition</h3>
+            <p>Menina introduces her family's Austrian strudels</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="text section2">
+            <h2>1950</h2>
+            <h3>Poseidon is uprooted by Port Authority</h3>
+            <p>Moves to its current location on Ninth Avenue</p>
+          </div>
+        </div>
+      </div>
+      <div class="row section">
+        <div class="col-6">
+          <img src="./html/images/mural/mu4.png" alt="4th mural picture of inside of current bakery">
+        </div>
+        <div class="col-6">
+          <div class="text">
+            <h2>1957</h2>
+            <h3>Sons John & Anthony join the family business</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row section">
+        <div class="col-6">
+          <div class="text">
+            <h2>1960</h2>
+            <h3>Lili & Anthony are married</h3>
+            <p>At Holy Cross Church on 42nd Street</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="./html/images/mural/mu5.jpg"
+            alt="5th mural picture of Lili and Anthony's marraige">
+        </div>
+      </div>
+      <div class="row section2 py-0">
+        <div class="col-12">
+          <img src="./html/images/mural/mu6-mu7.jpg" alt="6th and 7thmural picture of two hands overlayed and a tree" class="full-page-image">
+        </div>
+      </div>
+      <div class="row no-gap">
+        <div class="col-6">
+          <div class="text section2">
+            <h2>1970s & 1980's</h2>
+            <h3>Sons Mark, Tony & Paul are raised working in the bakery</h3>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="text section2">
+            <h2>2000's</h2>
+            <h3>Paul joins Lili in carrying on Poseidon legacy</h3>
+            <p>5th Generation is helping!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row section">
+        <div class="col-6">
+          <img src="./html/images/mural/mu8.png" alt="8th mural picture of outside of current bakery">
+        </div>
+        <div class="col-6">
+          <div class="text">
+            <h2>TODAY</h2>
+            <h3>Poseidon Bakery remains a Hell's Kitchen institution!</h3>
+          </div>
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+  </div>
+
+
+  <div class="my-5" id="footer">
+
+    <div class="text-white text-center text-lg-start" id="footer-container">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <div class="row mt-4">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0 about-text">
+            <h5 class="text-uppercase mb-4">About company</h5>
+            <p>
+              The <span>Poseidon Bakery</span>, founded in 1923, began supplying New York with
+              authentic treats from ancient Greece.
+            </p>
+            <p>
+              Today, the <span>Poseidon Bakery</span> is one of New York's authentic family run
+              businesses. Generations have passed, and the neighborhood has changed, but the delicacies at the
+              bakery
+              have remained the same.
+            </p>
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1">CONTACT US</h5>
+            <ul class="icon-list fa-ul ">
+              <li class="mb-3 home-icon">
+                <span class="ms-2">629 9th Avenue, New York, NY,
+                  10036</span>
+              </li>
+              <a href="mailto:Paul@POSEIDONBAKERY.COM" style="color: inherit; text-decoration: none;">
+                <li class="mb-3 email-icon">
+                  <span class="ms-2">Paul@POSEIDONBAKERY.COM</span>
+                </li>
+              </a>
+              <li class="mb-3 phone-icon">
+                <span class="ms-2">212-757-6173</span>
+              </li>
+
+            </ul>
+
+            <div class="social my-4">
+              <a href="https://www.facebook.com/PoseidonBakeryNYC" target="_blank"> <img
+                  src="./html/images/facebook3.png" alt="Facebook Link"></a>
+              <a href="https://twitter.com/PoseidonBakery" target="_blank"> <img src="./html/images/twitter3.png"
+                  alt="Twitter Link"></a>
+              <a href="http://instagram.com/poseidonbakery#" target="_blank"> <img src="html/images/instagram3.png"
+                  alt="instagram Link"></a>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0 hours">
+            <h5 class="text-uppercase mb-4">Operating hours</h5>
+
+            <table class="table text-center text-white">
+              <tbody class="font-weight-normal">
+                <tr>
+                  <td>Tue-Sat:</td>
+                  <td>10am - 6pm</td>
+                </tr>
+                <tr>
+                  <td>Sun-Mon:</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
+        </div>
+        <div class="copyright my-2">
+          <script type="text/javascript">
+            now = new Date();
+            year = now.getFullYear(); 
+          </script>
+          &copy;
+          <script type="text/javascript">
+            document.write(year);
+          </script> POSEIDON BAKERY
+        </div>
+      </div>
+      <!-- Grid container -->
+
+    </div>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
