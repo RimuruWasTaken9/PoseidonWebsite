@@ -5,36 +5,83 @@ header {
   padding: 0 1.875em;
   color: #00529b;
 }
-
+@media all and (max-width: 350px)
+{
+.test {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.test li {
+  text-align: center;
+  margin-left: 10px;
+}
+}
 
 
 
 /* main */
-
-.carousel-item {
-  text-align: center; /* Center images */
-
-}
-
-.carousel-item img {
-  max-width: 100%; /* Ensure images don't exceed the container's width */
-  height: auto; /* Maintain aspect ratio */
-}
-
-
-#myCarousel img {
-  padding: 25px;
-  max-width: 800px;
-}
-.carousel-image {
-  width: 300px; /* Set desired width */
-  height: auto; /* Set desired height */
-  object-fit: cover; /* Ensures images cover the area without stretching */
-}
-#myCarousel {
+#photos {
   background-color: #00529b;
-  height: 550px;
 }
+.carousel {
+  position: relative;
+
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+#photos ul.row {
+list-style-type: none;
+}
+#carousel-thumbs .selected img{
+   opacity: 1;
+}
+#carousel-thumbs button {
+  border: 0;
+  padding: 0;
+ 
+
+}
+#carousel-thumbs img:hover {
+opacity: 1;  
+
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+}
+
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+   
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
+/* Set a fixed height for the carousel-container based on the tallest image */
+
 
 
 
