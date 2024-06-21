@@ -140,3 +140,5 @@ TODAY
 Poseidon Bakery remains a Hell's Kitchen institution!
 
 _____________________________________________________________________________________________
+
+I'm making a website right now and had a cool idea I need some help with. I'll post the code below but basically every div that has the class full-page I want it to take up all of the space on the screen, and I want the page to behave like fixed images/a presentation in a way by slowly changing into the next slide(full-page class) as the user scrolls down/swipes down. I am using bootstrap right now so there are some grid instructions like col-6 or col-12 but feel free to get rid of them if they are in the way of my vision. Lastly there are some divs in between the full-page classes with the class overlay, I want these divs to show up on a higher z-index then the others so they will be overlayed on top of the full-page divs. Here is the code:
