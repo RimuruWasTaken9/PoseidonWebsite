@@ -9,7 +9,7 @@ QUOTES:
 "Best Baklava and Spanakopita..."
 	ZAGATS Restaurant Guide
 	
-"A Place to find those special ingredients and the only place to find hand-made phyllo..."
+"A Place to find those special ingredients and the ONLY place to find hand-made phyllo."
 	CRAIG CLAIBORNES, New York Times Cookbook
 	
 "The best Baklava in N.Y.C."
@@ -27,6 +27,14 @@ QUOTES:
 "The Best!"
 	GAIL GREEN, New York, Magazine
 
+"Their phyllo is FAMOUS!"
+	Martha Stewart
+
+"For Greek desserts I go to Poseidon."
+	Bobby Flay, Food Network
+
+
+MENU 1:
 _____________________________________________________________________________________________
 
 ABOUT US:
@@ -98,6 +106,80 @@ New York City's finest Greek Bakery for over 100 years.
 
 _____________________________________________________________________________________________
 
+MENU 2:
+_____________________________________________________________________________________________
+
+In 1923, Demetrios Anagnostou arrived in New York City and began baking the delicious treats he made in his small shop on the islnaf of Corfu. Together with his eldest son Michael, the Poseidon Bakery was founded in the heart of Hell's Kitchen.
+
+For decades, Michael and his beloved wife Menina worked side-by-side making some of the most amazing, authentic treats for New York City's finest restaurants and discerning customers.
+
+Their secret recipes were handed-down to their sons John and Anthony, who continued the tradition and expanded their outstanding reputation.
+
+Today, the Poseidon Bakery tradition continues as one of New York City's authentic, family-run businesses, owned and operated by Lili Fable and her son Paul, the grandson of Michael.
+
+For over a century, Poseidon has been the single source for authentic, hand-made Greek treats. The Poseidon Bakery is one of the only places in the country that still patiently makes phyllo by hand, supplying world-renowned chefs, global food connoisseurs and NY's finest restaurants.
+
+While our recipes are secret - our delicious sweets and savories provide a glimpse of the old-school preparation, outstanding ingredients and love passed through many generations.
+
+_____________________________________________________________________________________________
+
+POSEIDON SAVORIES
+
+Whether you're looking for a delicious lunch, light dinner or exquisite tray of hors d'oeuvres, these are a few of our classic savory specialties. While our individual pies make a great meal, each is available in cocktail sizes too. perfect for parties or corporate office lunches. Ask about our trays-to-go.
+
+SPANAKOPITA our light, flaky SPINACH PIE made with feta and a touch of dill.
+
+TIROPITA Our delicious CHEESE PIE made with ricotta, cream cheese, feta and mint.
+
+KREATOPITA Poseidon's amazing MEAT PIE with beef and our secret seasoning.
+
+MENINA'S MASH The exclusive VEGETABLE PIE made with spinach, potatoes, carrots, leeks, dill and more.
+
+_____________________________________________________________________________________________
+
+POSEIDON SWEETS & TREATS
+
+Our traditional, hand-made Greek pastries are unparalleled. After all, we're the place that Bobby Flay goes when he's in the mood for Greek desserts!
+
+BAKLAVA Our most famous pastry with layers of baked walnuts and almonds between crispy, golden phyllo comes drenched in honey.
+
+KOULOURAKIA A light, crispy cookie spindled with sesame seeds, a favorite with coffee.
+
+SARAGLI The amazing deliciousness of our baklava... simply rolled, so it's easy to eat on-the-go.
+
+KOURAMBIEDES The melt-in-your-mouth, rich butter almond cookie, blanketed in powdered sugar.
+
+AFALI A crown of crispy phyllo surrounds a roll of finely chopped pistachios, topped with honey.
+
+TRIGONA A delicate phyllo triangle filled with light, chewy almond paste, soaked in honey.
+
+GALACTOBOURIKO Poseidon's famous, rich custard pastry in slices or individually wrapped.
+
+FINIKIA The most amazing almond cookies, soaked in a vat of honey, available in full or baby size.
+
+STRUDELS Our hand-made strudels are not traditional Greek fare - but foodie favorites, either sliced or individually wrapped in golden, crispy phyllo. Be sure to try:
+Apple
+Apricot
+Apricot Cheese
+Cherry
+Cherry Cheese
+Pineapple Cheese
+Poppy Seed
+Prune
+
+NUTS & BRITTLE Oven-roasted pistachios, almonds, cashews, walnuts, macadamia nuts and pecans by the pound, or indulge in some coconut brittle, Pastelli (a sesame crunch brittle) or other seasonal specialty items.
+
+_____________________________________________________________________________________________
+
+OTHER SPECIALTY ITEMS
+
+At the Poseidon Bakery, you'll discover some hard-to-find specialty items such as Rose Petal Preserves, Quince Fig Preserve and Citris Mastic. Take home almond paste, fresh halvah, imported Attiki Honey, Greek olives and olive oil, fresh goat yogurt, tahini and even Dolmatis (stuffed grape leaves) to serve at home.
+
+From our family to yours, we hope you enjoy the authentic, hand-made Greek delicacies made with love at the Poseidon Greek Bakery.
+
+_____________________________________________________________________________________________
+
+
 MURAL TEXT
 
 1.
@@ -141,4 +223,27 @@ Poseidon Bakery remains a Hell's Kitchen institution!
 
 _____________________________________________________________________________________________
 
-I'm making a website right now and had a cool idea I need some help with. I'll post the code below but basically every div that has the class full-page I want it to take up all of the space on the screen, and I want the page to behave like fixed images/a presentation in a way by slowly changing into the next slide(full-page class) as the user scrolls down/swipes down. I am using bootstrap right now so there are some grid instructions like col-6 or col-12 but feel free to get rid of them if they are in the way of my vision. Lastly there are some divs in between the full-page classes with the class overlay, I want these divs to show up on a higher z-index then the others so they will be overlayed on top of the full-page divs. Here is the code:
+Dad's Popular List:
+Baklava
+Spanakopita
+Kreatopita
+FINIKIA
+Kouroumbiedes
+Galactabourika
+Afali
+Apple Strudel
+Cherry Cheese Strudel
+Koulourakia
+
+
+Nonna's Popular List:
+Baklava
+Spanakopita
+Finikia
+Kouroumbiedes
+Afali
+Trigona
+Apple Strudel
+Cherry Cheese
+Brittle
+
