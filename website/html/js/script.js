@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
 
   // When the carousel slides, auto update
-  $('#myCarousel').on('slid.bs.carousel', function(e) {
+  $('#myCarousel').on('slid.bs.carousel', function() {
     var id = $('.carousel-item.active').data('slide-number');
     id = parseInt(id);
     $('[id^=carousel-selector-]').removeClass('selected');

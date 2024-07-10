@@ -247,3 +247,12 @@ Apple Strudel
 Cherry Cheese
 Brittle
 
+
+
+updated
+strudels added 1980s
+kataif removed 2 years ago
+prices change every couple of years
+in short, menu can just be front end since its so static
+there are no plans to add or remove anything from the menu, and the prices don't
+show up on the website.
