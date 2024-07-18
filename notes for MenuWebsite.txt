@@ -25,3 +25,14 @@ Additionally, if someone is looking on their found it might be a good idea to be
 if one product has a picture next to it, they all need to,
 And they all need to be the same size so one section isn't bigger than the other,
 there is an option to only have 2-3 pictures at the top
+
+
+MENU SEction
+
+use sticky instead of fixed for navbar
+just make the navbar manually since it looks really easy
+background color for navbar is our blue with with text
+menu items will be either in white blocks with blue text with a light background for the page, OR
+menu items will be white blocks with blue text with some kind of border(black solid or maybe like a shadow of some sort
+consider changing all bootstrap if the rest are this easy
+3-4 items per row,
