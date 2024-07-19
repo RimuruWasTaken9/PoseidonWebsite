@@ -308,3 +308,19 @@ footer img {
   top: 0;
   z-index: 10;
 }
+section h2 {
+  text-align: left;
+  padding: 15px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+section > p {
+  text-align: left;
+  padding: 15px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+section > hr {
+  margin: 30px;
+}
