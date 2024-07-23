@@ -224,15 +224,15 @@ Poseidon Bakery remains a Hell's Kitchen institution!
 _____________________________________________________________________________________________
 
 Dad's Popular List:
-Baklava
-Spanakopita
-Kreatopita
-FINIKIA
-Kouroumbiedes
+Baklava -----
+Spanakopita ---
+Kreatopita ------
+FINIKIA ------
+Kouroumbiedes -----
 Galactabourika
-Afali
-Apple Strudel
-Cherry Cheese Strudel
+Afali -----
+Apple Strudel ----
+Cherry Cheese Strudel ---
 Koulourakia
 
 
@@ -256,3 +256,21 @@ prices change every couple of years
 in short, menu can just be front end since its so static
 there are no plans to add or remove anything from the menu, and the prices don't
 show up on the website.
+
+
+a middle eastern energy bar
+
+specialty items: 
+
+feta cheese - Traditonal greek cheese and a staple of greek cuisine.
+Halva - Crushed sesame seeds with sugar grounded to paste, flavored with almonds, pistachios, or chocolate.
+Taramosalata - Greek style caviar spread.
+Imported attiki honey - Pure raw greek honey.
+Dolmatis - Vine leaves stuffed with rice.
+Vasilopita - Round bread with sesame seeds on top spelling out the next year. The tradition is that there is a coin in the bread, a family cuts out one piece each from oldest to youngest, with the winner having good luck for the year.
+Christopsoumos - The same cake as the Vasilopita but ordered for christmas. Round bread with sesame seeds on top.
+Kouloura - Braided round bread with dyed red eggs in the middle with a cross over the eggs, ordered for easter.
+Tsioureki - A long braided version of the holiday breads. Ordered for any of the holidays.
+
+
+
