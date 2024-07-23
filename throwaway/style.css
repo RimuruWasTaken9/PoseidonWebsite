@@ -1,0 +1,66 @@
+.container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+.container .cover {
+  position: fixed;
+  display: inline-block;
+  background-color: #ffffff;
+  z-index: 10;
+}
+.container .cover.top { 
+  top: 0; left: 0; 
+  width: 100%; 
+  height: 120px;
+}
+.container .cover.right { 
+  top: 0; right: 0; 
+  width: 100px; 
+  height: 100%;
+}
+.container .cover.bottom { 
+  bottom: 0; left: 0; 
+  width: 100%; 
+  height: 120px;
+}
+.container .cover.left { 
+  top: 0; left: 0; 
+  width: 500px; 
+  height: 100%;
+}
+.container .bg-image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.container .bg-image.one { background-color: #cccccc; }
+.container .bg-image.two { background-color: #8ec640; }
+.container .bg-image.three { background-color: #ff00ff; }
+
+.container .text {
+  position: absolute;
+  display: inline-block;
+  font-size: 40px;
+  color: #000000;
+  z-index: 20;
+}
+.container .text.one {
+  top: 200px;
+  left: 1500px;
+}
+.container .text.two {
+  top: 680px;
+  left: 600px;
+}
+.container .text.two5 {
+  top: 680px;
+  left: 1200px;
+}
+.container .text.three {
+  top: 1100px;
+  left: 250px;
+}

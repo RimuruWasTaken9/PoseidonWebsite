@@ -36,3 +36,7 @@ menu items will be either in white blocks with blue text with a light background
 menu items will be white blocks with blue text with some kind of border(black solid or maybe like a shadow of some sort
 consider changing all bootstrap if the rest are this easy
 3-4 items per row,
+
+
+the text for the murals can be larger, the smallest font is hard to see and the rest should be scaled up to match that
+still need to figure out the order issue with the flex disply or the order issue with bootstrap, look into flex one first.
