@@ -40,3 +40,11 @@ consider changing all bootstrap if the rest are this easy
 
 the text for the murals can be larger, the smallest font is hard to see and the rest should be scaled up to match that
 still need to figure out the order issue with the flex disply or the order issue with bootstrap, look into flex one first.
+
+2024-7-23
+Need to use figma and the image templates made earlier to design a picture there. Once done, do the beta testing feature to conver it to a website.
+Inspect website to get html and css(annoying part) of frame. Use that code for designs. This probably isn't the end of it
+this probably won't work. WAIT. JUST SET A MINIMUM/MAXIMUM WIDTH FOR SIZE THAT LOOKS GOOD ON THE WEBSITE.
+ HAVE THE ROW FLEX UNTIL IT STARTS TO GET OUT OF QUALITY(BOTH FOR ZOOMING IN AND OUT). IF THE SIZE RANGE FOR CURRENT FRAME ISN'T GOOD, 
+MAKE A SMALLER FRAME USING CANVA AND THE PHOTO EDITOR PAGE TO MAKE THE MURAL DETAILS IMAGE INTO A BETTER SIZE RANGE.
+
