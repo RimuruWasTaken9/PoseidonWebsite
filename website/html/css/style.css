@@ -371,18 +371,34 @@ section > hr {
 .about-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 0;
 }
 
-.about-container .image {
+.about-container img {
   width: 50%;
 }
 
-.mural-image {
+div.mural-image {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
+  
+}
+
+.with-text img{
+ width: 75%;
+ 
+ 
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .full-mural {
  width: 100%;
@@ -392,13 +408,25 @@ section > hr {
  margin-top: 100px;
 }
 
-.history {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 600px;
+
+.history img{
+  float: right;
+  flex: 1 1 0;
+  width: 50%;
+  max-width: 300px;
+  min-width: 150px;
+  
+  margin-right: 20px;
+  padding: 10px;
 }
+.history p {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  
+}
+
 @media (max-width: 600px) {
   .about-row {
     flex-direction: column;
@@ -410,6 +438,6 @@ section > hr {
   .about-row .with-text {
     order: 2;
     padding: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 20px;;
   }
 }
