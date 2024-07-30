@@ -34,11 +34,13 @@
       font-weight: 600;
     }
 
+    #about-container h1,
     h2,
+    h3,
+    h4,
     p {
       color: #00529b;
       font-family: "kalam-bold", cursive;
-      text-align: center;
     }
 
     #footer p {
@@ -59,8 +61,22 @@
       object-fit: contain;
     }
 
+    .text {
+      background-image: url("./html/images/dirty-white.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      text-align: center;
+      margin: 30px;
+      padding: 10px;
+    }
 
-
+    .section2 h2,
+    h3,
+    p {
+      text-align: center;
+    }
 
     .no-gap {
       margin: 0;
@@ -76,7 +92,7 @@
         <div class="container-fluid min-center">
           <div class="col-md-3 mb-2 mb-md-0 justify-content-center">
             <a href="./index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
-              <img src="html/images/shared/poseidonLogo.jpg" class="logo" alt="Poseidon Bakery Logo" />
+              <img src="html/images/poseidonLogo.jpg" class="logo" alt="Poseidon Bakery Logo" />
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
@@ -103,69 +119,73 @@
   </header>
   <div class="about-container">
     <div class="about-row">
-      <img src="./html/images/about/m1.png" alt="first mural image" />
-      <div class="mural-text">
-        <img src="./html/images/about/mural1text.png" alt="text for first mural" />
+      <img src="./html/images/mural/m1.png" alt="Image without text" class="image" />
+      <div class="mural-image with-text">
+        <img src="./html/images/mural/mural-text-images/mural1text.png" alt="Image with text"
+          class="image text-image" />
       </div>
+
+
+
     </div>
     <div class="about-row">
-      <div class="mural-text">
-        <img src="./html/images/about/mural2text.png" alt="text for second mural" />
-      </div>
-      <img src="./html/images/about/m2.png" alt="second mural image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural2text.png"
+          alt="Image with text" class="image text-image" /></div>
+      <img src="./html/images/mural/m2.png" alt="Image without text" class="image" />
     </div>
     <div class="about-row">
-      <img src="./html/images/about/m3.png" alt="third mural image" />
-      <div class="mural-text">
-        <img src="./html/images/about/mural3text.png" alt="text for third mural" />
-      </div>
+      <img src="./html/images/mural/m3.png" alt="Image without text" class="image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural3text.png"
+          alt="Image with text" class="image text-image" /></div>
     </div>
     <div class="about-row">
-      <div class="mural-text">
-        <img src="./html/images/about/mural4text.png" alt="text for fourth mural" />
-      </div>
-      <img src="./html/images/about/m4.png" alt="fourth mural image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural4text.png"
+          alt="Image with text" class="image text-image" /></div>
+      <img src="./html/images/mural/m4.png" alt="Image without text" class="image" />
     </div>
     <div class="about-row">
-      <img src="./html/images/about/m5.png" alt="fifth mural image" />
-      <div class="mural-text">
-        <img src="./html/images/about/mural5text.png" alt="text for fifth mural" />
-      </div>
+      <img src="./html/images/mural/m5.png" alt="Image without text" class="image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural5text.png"
+          alt="Image with text" class="image text-image" /></div>
     </div>
     <div class="about-row">
-      <div class="mural-text">
-        <img src="./html/images/about/mural6text.png" alt="text for sixth mural" />
-      </div>
-      <img src="./html/images/about/m6.png" alt="sixth mural image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural6text.png"
+          alt="Image with text" class="image text-image" /></div>
+      <img src="./html/images/mural/m6.png" alt="Image without text" class="image" />
     </div>
     <div class="about-row">
-      <img src="./html/images/about/m7.png" alt="seventh mural image" />
-      <div class="mural-text">
-        <img src="./html/images/about/mural7text.png" alt="text for seventh mural" />
-      </div>
+      <img src="./html/images/mural/m7.png" alt="Image without text" class="image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural7text.png"
+          alt="Image with text" class="image text-image" /></div>
     </div>
     <div class="about-row">
-      <div class="mural-text">
-        <img src="./html/images/about/mural8text.png" alt="text for eighth mural" />
-      </div>
-      <img src="./html/images/about/m8.png" alt="eighth mural image" />
+      <div class="mural-image with-text"><img src="./html/images/mural/mural-text-images/mural8text.png"
+          alt="Image with text" class="image text-image" /></div>
+      <img src="./html/images/mural/m8.png" alt="Image without text" class="image" />
     </div>
   </div>
+  <img src="./html/images/mural/mural.png.jpg" alt="Image of full mural" class="image full-mural" />
+
   <hr />
   <div class="history-container">
+    <h2>History</h2>
     <div class="history">
-      <h2>About Us</h2>
+
       <p>Over 100 years ago, Demetrius Anagnostou began baking delicious treats in his small shop on the island of
         Corfu. His dreams led him to New York in 1923, where he settled on the west side of Manhattan, and earned a
         living doing what he knew best - baking.
+
         Together with his eldest son Michael, the Poseidon Bakery was founded in the heart of Hell's Kitchen.
 
-        For decades, Michael and his beloved wife Menina worked side-by-side making some of the most amazing, authentic
+        For decades, Michael and his beloved wife Menina worked side-by-side making some of the most amazing,
+        authentic
         treats for New York City's finest restaurants and discerning customers.
 
         Their secret recipes were handed-down to their sons John and Anthony, who continued the tradition and expanded
         their outstanding reputation.
       </p>
+      <img src="./html/images/history.jpeg" alt="Image of Michael, Menina, and Lily Fable" />
+
       <p>Today, the Poseidon Bakery tradition continues as one of New York City's authentic, family-run businesses,
         owned and operated by Lili Fable and her son Paul, the grandson of Michael.
 
@@ -176,14 +196,11 @@
         While our recipes are secret - our delicious sweets and savories provide a glimpse of the old-school
         preparation, outstanding ingredients and love passed through many generations.
       </p>
+
+
     </div>
   </div>
-  <img src="./html/images/about/mural.jpg" alt="Image of full mural" class="full-mural" />
-  <div class="menu-button"><a href="./Menu.html"><button class="btn btn-primary px-4 mb-5" type="button">
-      View Our Menu
-    </button></a></div>
-
-  <div class="mt-3" id="footer">
+  <div class="my-5" id="footer">
     <div class="text-white text-center text-lg-start" id="footer-container">
       <!-- Grid container -->
       <div class="container p-4">
@@ -223,11 +240,11 @@
 
             <div class="social my-4">
               <a href="https://www.facebook.com/PoseidonBakeryNYC" target="_blank">
-                <img src="./html/images/shared/facebook3.png" alt="Facebook Link" /></a>
+                <img src="./html/images/facebook3.png" alt="Facebook Link" /></a>
               <a href="https://twitter.com/PoseidonBakery" target="_blank">
-                <img src="./html/images/shared/twitter3.png" alt="Twitter Link" /></a>
+                <img src="./html/images/twitter3.png" alt="Twitter Link" /></a>
               <a href="http://instagram.com/poseidonbakery#" target="_blank">
-                <img src="html/images/shared/instagram3.png" alt="instagram Link" /></a>
+                <img src="html/images/instagram3.png" alt="instagram Link" /></a>
             </div>
           </div>
           <!--Grid column-->

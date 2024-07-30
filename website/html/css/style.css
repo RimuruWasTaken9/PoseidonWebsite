@@ -66,14 +66,15 @@ header {
   border-radius: 40%;
 }
 .home-icon {
-  background: url("../images/home.png") no-repeat left center;
+  background: url("../images/shared/home.png") no-repeat left center;
 }
 .phone-icon {
-  background: url("../images/phone.png") no-repeat left center;
+  background: url("../images/shared/phone.png") no-repeat left center;
 }
 .email-icon {
-  background: url("../images/email.png") no-repeat left center;
+  background: url("../images/shared/email.png") no-repeat left center;
 }
+
 .social {
   display: flex;
 }
