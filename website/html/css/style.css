@@ -254,6 +254,13 @@ hr {
 .menu-navbar li a:hover {
   background-color: #1a6eb7;
 }
+.menu-navbar li a:active {
+  background-color: #3181c7;
+}
+.menu-navbar li a.selected {
+  background-color: #1a6eb7;
+}
+
 .menu-container {
   position: relative;
   margin: 0;
