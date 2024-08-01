@@ -86,10 +86,30 @@ navbarSelector.forEach(function (selector) {
   });
 });
 
+
 //every time a section is passed, the navbar highlights the corresponding section
 //if the class "menu-item-group" is passed, remove the "selected" class from all other "li.item a" elements
 //and add the selected class the corresponding section
 
+let observer = new IntersectionObserver((entries, observer) => {
+  let topMostEntry = null;
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Get the target element that is currently in view
+      
+      if (!topMostEntry || entry.boundingClientRect.top < topMostEntry.boundingClientRect.top) {
+        topMostEntry = entry;
+      }
+    }
+    if (topMostEntry) {
+      let targetElement = topMostEntry.target;
+      navbarSelector.forEach(function (sel) {
+               sel.classList.remove('selected');
+            });
+      document.querySelector("#nav-" + targetElement.id + " a").classList.add('selected');
+          }
+  });
+}, { threshold: 0.22 });
 //So the only thing that remains to do is to check if scrollY > (offsetHeight + offsetTop).
 //If this is true, you passed the element with the scroll.
 //but for us our sections don't have absolute heights since they change and are unique, so
@@ -97,50 +117,57 @@ navbarSelector.forEach(function (selector) {
 //OR we can use the only the offsetHeight of the second section and ignore the first section
 //essentially always looking at the start of the next section instead of the section we are currently on.
 window.addEventListener("scroll", function() {
-  var screenHeight = window.scrollY - document.querySelector("header").scrollHeight;
-  const popularItemsSecHeight = document.getElementById("popular-items").scrollHeight;
-  const sweetsSecHeight = document.getElementById("sweets").scrollHeight + popularItemsSecHeight;
-  const savoriesSecHeight = document.getElementById("savories").scrollHeight + sweetsSecHeight;
-  const cookiesSecHeight = document.getElementById("cookies").scrollHeight + savoriesSecHeight;
-  const strudelsSecHeight = document.getElementById("strudels").scrollHeight + cookiesSecHeight;
-  const specialtiesSecHeight = document.getElementById("specialties").scrollHeight + strudelsSecHeight;
-  if (screenHeight > strudelsSecHeight) {
+  // var screenHeight = window.scrollY - document.querySelector("header").scrollHeight;
+  // const popularItemsSecHeight = document.getElementById("popular-items").scrollHeight;
+  // const sweetsSecHeight = document.getElementById("sweets").scrollHeight + popularItemsSecHeight;
+  // const savoriesSecHeight = document.getElementById("savories").scrollHeight + sweetsSecHeight;
+  // const cookiesSecHeight = document.getElementById("cookies").scrollHeight + savoriesSecHeight;
+  // const strudelsSecHeight = document.getElementById("strudels").scrollHeight + cookiesSecHeight;
+  // const specialtiesSecHeight = document.getElementById("specialties").scrollHeight + strudelsSecHeight;
+//   if (screenHeight > strudelsSecHeight) {
       
-      navbarSelector.forEach(function (sel) {
-        sel.classList.remove('selected');
-      });
-      document.querySelector('#nav-specialties a').classList.add('selected');
-  } else if (screenHeight > cookiesSecHeight) {
+//       navbarSelector.forEach(function (sel) {
+//         sel.classList.remove('selected');
+//       });
+//       document.querySelector('#nav-specialties a').classList.add('selected');
+//   } else if (screenHeight > cookiesSecHeight) {
       
-    navbarSelector.forEach(function (sel) {
-      sel.classList.remove('selected');
-    });
-    document.querySelector('#nav-strudels a').classList.add('selected');
- } else if (screenHeight > savoriesSecHeight) {
+//     navbarSelector.forEach(function (sel) {
+//       sel.classList.remove('selected');
+//     });
+//     document.querySelector('#nav-strudels a').classList.add('selected');
+//  } else if (screenHeight > savoriesSecHeight) {
       
-  navbarSelector.forEach(function (sel) {
-    sel.classList.remove('selected');
-  });
-  document.querySelector('#nav-cookies a').classList.add('selected');
-} else if (screenHeight > sweetsSecHeight) {
+//   navbarSelector.forEach(function (sel) {
+//     sel.classList.remove('selected');
+//   });
+//   document.querySelector('#nav-cookies a').classList.add('selected');
+// } else if (screenHeight > sweetsSecHeight) {
       
-  navbarSelector.forEach(function (sel) {
-    sel.classList.remove('selected');
-  });
-  document.querySelector('#nav-savories a').classList.add('selected');
- } else if (screenHeight > popularItemsSecHeight) {
+//   navbarSelector.forEach(function (sel) {
+//     sel.classList.remove('selected');
+//   });
+//   document.querySelector('#nav-savories a').classList.add('selected');
+//  } else if (screenHeight > popularItemsSecHeight) {
       
-  navbarSelector.forEach(function (sel) {
-    sel.classList.remove('selected');
-  });
-  document.querySelector('#nav-sweets a').classList.add('selected');
-} else {
+//   navbarSelector.forEach(function (sel) {
+//     sel.classList.remove('selected');
+//   });
+//   document.querySelector('#nav-sweets a').classList.add('selected');
+// } else {
 
-  navbarSelector.forEach(function (sel) {
-    sel.classList.remove('selected');
-  });
-  document.querySelector('#nav-popular-items a').classList.add('selected');
- }
+//   navbarSelector.forEach(function (sel) {
+//     sel.classList.remove('selected');
+//   });
+//   document.querySelector('#nav-popular-items a').classList.add('selected');
+//  }
+
+let targets = document.querySelectorAll('section');
+
+targets.forEach(target => {
+  observer.observe(target);
+});
+
 });
     break;
     case "/About.html":
