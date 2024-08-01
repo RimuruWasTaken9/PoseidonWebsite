@@ -275,7 +275,7 @@ hr {
   position: relative;
   z-index: 1;
   box-sizing: inherit;
-}
+  }
 
 .menu-items-wrapper {
   display: flex;
