@@ -22,6 +22,10 @@ header {
   margin-left: 10px;
 }
 }
+hr {
+  border: 1px solid #00529b; /* Remove default border */
+  margin: 5%; /* Optional: add vertical margins */
+}
 .nav-selected {
   text-decoration: underline;
 }
@@ -179,10 +183,7 @@ opacity: 1;
   font-weight: 700;
 }
 
-hr {
-  border: 1px solid #00529b; /* Remove default border */
-  margin: 5%; /* Optional: add vertical margins */
-}
+
 
 
 /***********************
