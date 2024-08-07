@@ -22,13 +22,8 @@ header {
   margin-left: 10px;
 }
 }
-hr {
-  border: 1px solid #00529b; /* Remove default border */
-  margin: 5%; /* Optional: add vertical margins */
-}
-.nav-selected {
-  text-decoration: underline;
-}
+
+
 
 /* footer */
 #footer-container {
@@ -103,10 +98,19 @@ footer img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+
 }
 #footer-container p {
   color: white;
+}
+
+/* other */
+hr {
+  border: 1px solid #00529b; /* Remove default border */
+  margin: 5%; /* Optional: add vertical margins */
+}
+.nav-selected {
+  text-decoration: underline;
 }
 
 /***********************
@@ -175,8 +179,6 @@ opacity: 1;
     background: #ccccce;
   }
 }
-
-
 
 #viewMenu h1{
   color: #1a6eb7;
@@ -430,6 +432,16 @@ section > hr {
   flex-wrap: wrap;
   
 }
+.history > h2, .history > p {
+  color: #00529b;
+  font-family: "kalam-bold", cursive;
+  text-align: center;
+}
+#footer-container p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 @media (max-width: 600px) {
   .about-row {
@@ -444,5 +456,4 @@ section > hr {
     padding: 10px;
     margin-bottom: 20px;
   }
-
 }
