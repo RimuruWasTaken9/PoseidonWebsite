@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sel.classList.remove('nav-selected');
   })
 
+
   switch (window.location.pathname) {
 
     ///////////////////////////////////////////
@@ -61,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelector('#nav-menu a').classList.add('nav-selected');
 
 
-    //if a navbar button is clicked, highlight it
+      //if a navbar button is clicked, highlight it
       var navbarSelector = updateSectionLocation();
       //const navbarSelector = document.querySelectorAll('li.item a');
       function updateSectionLocation() {
@@ -96,24 +97,38 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       }, { threshold: 0.22 }); //test for best value
 
-     
+
       navbarSelector.forEach(function (selector) {
-        selector.addEventListener('click', function () {
-      console.log("counts as actual clicked");
-          this.classList.add('selected');
+        selector.addEventListener('click', function (event) {
+          event.target.classList.add('selected');
+          selector.addEventListener('mouseout', function (event) {
+            event.target.classList.add('selected');
+          });
+        });
+        selector.addEventListener('mouseover', function (event) {
+          event.target.classList.add('selected');
+          selector.addEventListener('mouseout', function (event) {
+            event.target.classList.remove('selected');
+          });
+        });
+
+        //if someone refreshed the page while in a section, this will highlight the correct button
+        let targets = document.querySelectorAll('section');
+        targets.forEach(target => {
+          observer.observe(target);
         });
       });
 
-    
+
       window.addEventListener("scroll", function () {
         let targets = document.querySelectorAll('section');
         targets.forEach(target => {
           observer.observe(target);
         });
-      
+
       });
-     
-    
+
+
       break;
 
     ///////////////////////////////////////////
@@ -121,10 +136,11 @@ document.addEventListener('DOMContentLoaded', function () {
     ///////////////////////////////////////////
     case "/about.html":
       document.querySelector('#nav-about a').classList.add('nav-selected');
-      
+
       break;
 
     default:
+      document.querySelector('#nav-home a').classList.add('nav-selected');
       break;
   }
 });

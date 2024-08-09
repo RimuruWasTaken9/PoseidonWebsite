@@ -168,12 +168,12 @@ opacity: 1;
     border-width: 3px;
   }
 }
-@media all and (min-width: 576px) {
+/* @media all and (min-width: 576px) {
   .carousel-container #carousel-thumbs {
     position: absolute;
    
   }
-}
+} */
 @media all and (max-width: 576px) {
   .carousel-container #carousel-thumbs {
     background: #ccccce;
@@ -271,9 +271,9 @@ opacity: 1;
   padding: 14px 16px;
   text-decoration: none;
 }
-.menu-navbar li a:hover {
+/* .menu-navbar li a:hover {
   background-color: #1a6eb7;
-}
+} */
 .menu-navbar li a:active {
   background-color: #3181c7;
 }
@@ -421,7 +421,7 @@ section > hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 450px;
+  /* min-width: 450px; */
   max-width: 650px;
   
 }
@@ -434,7 +434,7 @@ section > hr {
 }
 .history > h2, .history > p {
   color: #00529b;
-  font-family: "kalam-bold", cursive;
+  font-family: "kalam-bold", Arial, Helvetica, sans-serif;
   text-align: center;
 }
 #footer-container p {
@@ -448,7 +448,7 @@ section > hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 450px;
+    /* min-width: 450px; */
     flex-shrink: 0;
   }
   .about-row .mural-text {
