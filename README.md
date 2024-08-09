@@ -3,6 +3,7 @@ Code for the Poseidon Bakery Website at https://www.poseidonbakery.com
 Background for the Bakery:
 The Poseidon Bakery, located in the heart of New York City, is a "Family owned and run authentic Greek Bakery in Hell's Kitchen since 1923. 
 Handmade pastries--both sweet and savory! All phyllo dough is made by hand in-shop!" - Taken from the Bakery's Facebook Page
+
 Links to their social media:
 - Facebook - https://www.facebook.com/PoseidonBakeryNYC/
 - Twitter - https://x.com/PoseidonBakery/
