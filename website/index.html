@@ -139,9 +139,11 @@
   </div>
 
   <hr />
+  
+ 
   <div class="container my-5" id="quotes">
-    <div class="row" data-masonry='{"percentPosition": true }' style="position: relative; height: 1187.33px;">
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+    <div class="row grid-sizer" data-masonry='{"percentPosition": true }' style="position: relative; height: 1187.33px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
         <div class="card">
           <img src="./html/images/home/festival.jpg" class="card-img-top" alt="picture of Poseidon booth at festival">
           <div class="card-body">
@@ -152,7 +154,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 50%; top: 0px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 50%; top: 0px;">
         <div class="card p-3">
           <figure class="p-3 mb-0">
             <blockquote class="blockquote">
@@ -164,7 +166,7 @@
           </figure>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 50%; top: 251.333px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 50%; top: 251.333px;">
         <div class="card">
           <img src="./html/images/home/lili-filo.jpg" class="card-img-top" alt="Lili Fable holding cut piece of filo"
             height>
@@ -174,7 +176,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 433.333px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 433.333px;">
         <div class="card text-bg-primary text-center p-3">
           <figure class="mb-0">
             <blockquote class="blockquote">
@@ -186,7 +188,7 @@
           </figure>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 622.666px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 622.666px;">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Wherever you're From or Wherever you're Going</h5>
@@ -195,12 +197,12 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 50%; top: 652.666px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 50%; top: 652.666px;">
         <div class="card">
           <img src="./html/images/home/newspaper.jpg" class="card-img-top" alt="newspaper clipping of bakery">
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 823.999px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 823.999px;">
         <div class="card p-3 text-end">
           <figure class="mb-0">
             <blockquote class="blockquote">
@@ -212,7 +214,7 @@
           </figure>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 823.999px;">
+      <div class="grid-item col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 823.999px;">
         <div class="card p-3 text-end">
           <figure class="mb-0">
             <blockquote class="blockquote">
@@ -322,12 +324,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
+  <script>
+      window.onload = function() {
       let masonryScript = document.createElement( 'script' );
       masonryScript.setAttribute('src', 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js');
       document.body.appendChild(masonryScript);	
+      masonryScript.onload = function() {
+      let grid = document.querySelector('.grid'); // Make sure this matches your grid container
+      let msnry = new Masonry(grid, {
+        // options for Masonry
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-sizer',
+        percentPosition: true
       });
+    };
+  };
       </script> 
       <script src="./html/js/script.js"></script>
 </body>
