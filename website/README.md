@@ -18,10 +18,10 @@ Links to some articles for more information & reviews of Bakery:
 
 
 Things to Note about Website:
-- Uses React for the frontend interface.
+- Contains three HTML files, one CSS file, one JS file, and images for each of the pages.
 - Uses bootstrap elements for some layouts and masonry for one layout on the homepage.
 - The website is completely frontend for convenience to the user, and no backend is required.
-
+- Since there are less than 150 lines of javascript, Jquery was not used to decrease the loadtimes.
 
 
 
