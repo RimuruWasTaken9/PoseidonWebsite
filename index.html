@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <link rel="shortcut icon" href="/logo.jpg" />
+    <link rel="shortcut icon" href="/logo_processed.jpg" />
     <title>Poseidon Bakery</title>
   </head>
   <body>
@@ -16,20 +16,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script>
-      window.onload = function() {
-      let masonryScript = document.createElement( 'script' );
-      masonryScript.setAttribute('src', 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js');
-      document.body.appendChild(masonryScript);	
-      masonryScript.onload = function() {
-      let grid = document.querySelector('.grid'); // Make sure this matches your grid container
-      let msnry = new Masonry(grid, {
-        // options for Masonry
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
-      });
-    };
-  };
+     
       </script> 
   </body>
 </html>

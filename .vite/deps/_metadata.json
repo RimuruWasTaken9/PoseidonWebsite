@@ -1,47 +1,56 @@
 {
-  "hash": "42f4a879",
+  "hash": "0f451392",
   "configHash": "efabfc4b",
-  "lockfileHash": "06ed9ac9",
-  "browserHash": "5738aa52",
+  "lockfileHash": "c2af3d89",
+  "browserHash": "48e2313f",
   "optimized": {
     "jquery": {
       "src": "../../node_modules/jquery/dist/jquery.js",
       "file": "jquery.js",
-      "fileHash": "626c7593",
+      "fileHash": "d4ad9d1e",
       "needsInterop": true
     },
     "popper.js": {
       "src": "../../node_modules/popper.js/dist/esm/popper.js",
       "file": "popper__js.js",
-      "fileHash": "cb4c32da",
+      "fileHash": "a40f2ad9",
       "needsInterop": false
     },
     "bootstrap/dist/js/bootstrap.bundle.min": {
       "src": "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
       "file": "bootstrap_dist_js_bootstrap__bundle__min.js",
-      "fileHash": "da527bac",
+      "fileHash": "841a4a22",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "85e3669e",
+      "fileHash": "160c2462",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "d475ccd9",
+      "fileHash": "2caf36cc",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.mjs",
       "file": "react-router-dom.js",
-      "fileHash": "296c0cc8",
+      "fileHash": "28bace4e",
+      "needsInterop": false
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "02515b8c",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-FXZDWUH3": {
+      "file": "chunk-FXZDWUH3.js"
+    },
     "chunk-IPYILTUR": {
       "file": "chunk-IPYILTUR.js"
     },
