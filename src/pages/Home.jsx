@@ -1,5 +1,7 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { headerPhotos, footerPhotos, homePhotos } from "../assets/bakeryPhotos";
+import React from 'react';
+
 
 function Home() {
     return (

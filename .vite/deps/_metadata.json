@@ -1,0 +1,55 @@
+{
+  "hash": "42f4a879",
+  "configHash": "efabfc4b",
+  "lockfileHash": "06ed9ac9",
+  "browserHash": "5738aa52",
+  "optimized": {
+    "jquery": {
+      "src": "../../node_modules/jquery/dist/jquery.js",
+      "file": "jquery.js",
+      "fileHash": "626c7593",
+      "needsInterop": true
+    },
+    "popper.js": {
+      "src": "../../node_modules/popper.js/dist/esm/popper.js",
+      "file": "popper__js.js",
+      "fileHash": "cb4c32da",
+      "needsInterop": false
+    },
+    "bootstrap/dist/js/bootstrap.bundle.min": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "file": "bootstrap_dist_js_bootstrap__bundle__min.js",
+      "fileHash": "da527bac",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "85e3669e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d475ccd9",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "296c0cc8",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IPYILTUR": {
+      "file": "chunk-IPYILTUR.js"
+    },
+    "chunk-4SFRHSJ3": {
+      "file": "chunk-4SFRHSJ3.js"
+    },
+    "chunk-EQCVQC35": {
+      "file": "chunk-EQCVQC35.js"
+    }
+  }
+}
