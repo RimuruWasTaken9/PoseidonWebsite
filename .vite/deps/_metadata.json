@@ -1,58 +1,64 @@
 {
-  "hash": "0f451392",
+  "hash": "644880b3",
   "configHash": "efabfc4b",
-  "lockfileHash": "c2af3d89",
-  "browserHash": "48e2313f",
+  "lockfileHash": "66ecf36c",
+  "browserHash": "e553d2e8",
   "optimized": {
     "jquery": {
       "src": "../../node_modules/jquery/dist/jquery.js",
       "file": "jquery.js",
-      "fileHash": "d4ad9d1e",
+      "fileHash": "055ebab6",
       "needsInterop": true
     },
     "popper.js": {
       "src": "../../node_modules/popper.js/dist/esm/popper.js",
       "file": "popper__js.js",
-      "fileHash": "a40f2ad9",
+      "fileHash": "8d6a5c64",
       "needsInterop": false
     },
     "bootstrap/dist/js/bootstrap.bundle.min": {
       "src": "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
       "file": "bootstrap_dist_js_bootstrap__bundle__min.js",
-      "fileHash": "841a4a22",
+      "fileHash": "c2ff89b1",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "160c2462",
+      "fileHash": "3f67efe5",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "2caf36cc",
+      "fileHash": "d56b2f3a",
       "needsInterop": true
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.mjs",
       "file": "react-router-dom.js",
-      "fileHash": "28bace4e",
+      "fileHash": "92e6ba01",
       "needsInterop": false
     },
     "react-router": {
       "src": "../../node_modules/react-router/dist/development/index.mjs",
       "file": "react-router.js",
-      "fileHash": "02515b8c",
+      "fileHash": "00737d15",
+      "needsInterop": false
+    },
+    "@mui/lab": {
+      "src": "../../node_modules/@mui/lab/index.js",
+      "file": "@mui_lab.js",
+      "fileHash": "ee37fbee",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-FXZDWUH3": {
-      "file": "chunk-FXZDWUH3.js"
-    },
     "chunk-IPYILTUR": {
       "file": "chunk-IPYILTUR.js"
+    },
+    "chunk-FXZDWUH3": {
+      "file": "chunk-FXZDWUH3.js"
     },
     "chunk-4SFRHSJ3": {
       "file": "chunk-4SFRHSJ3.js"

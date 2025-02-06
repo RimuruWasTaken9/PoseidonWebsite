@@ -11,7 +11,7 @@ function Header() {
                 <nav className="navbar navbar-expand-md navbar bg">
                     <div className="container-fluid min-center">
                         <div className="col-md-3 mb-2 mb-md-0 justify-content-center">
-                            <Link to="/" className="d-inline-flex link-body-emphasis text-decoration-none">
+                            <Link to="/" className="d-inline-flex link-body-emphasis text-decoration-none" >
                                 <img src={headerPhotos.logo} className="logo" alt="Poseidon Bakery Logo" />
                             </Link>
                         </div>
@@ -23,13 +23,13 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarsExample05">
                             <ul className="navbar-nav container-fluid justify-content-end me-auto mb-2 mb-md-0">
                                 <li className="nav-item" id="nav-home">
-                                    <Link to="/" className="nav-link px-5 text-body-emphasis">HOME</Link>
+                                    <Link to="/" className="nav-link px-5 text-body-emphasis" style={location.pathname === "/" ? { textDecoration: 'underline' } : { textDecoration: 'none' }}>HOME</Link>
                                 </li>
                                 <li className="nav-item" id="nav-menu">
-                                    <Link to="/Menu" className="nav-link px-5 text-body-emphasis" style={{ color: '#00529b' }}>MENU</Link>
+                                    <Link to="/Menu" className="nav-link px-5 text-body-emphasis" style={location.pathname === "/Menu" ? { textDecoration: 'underline' } : { textDecoration: 'none' }}>MENU</Link>
                                 </li>
                                 <li className="nav-item" id="nav-about">
-                                    <Link to="/About" className="nav-link px-5 text-body-emphasis" style={{ color: '#00529b' }}>ABOUT US</Link>
+                                    <Link to="/About" className="nav-link px-5 text-body-emphasis" style={location.pathname === "/About" ? { textDecoration: 'underline' } : { textDecoration: 'none' }}>ABOUT US</Link>
                                 </li>
                             </ul>
                         </div>

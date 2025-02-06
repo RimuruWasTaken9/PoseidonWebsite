@@ -12,6 +12,42 @@ function Home() {
         masonryScript.onload = function() {
       
       };
+
+       // Initialize the carousel
+       var carouselElements = document.querySelectorAll('.customCarousel');
+       carouselElements.forEach(function (carouselElement) {
+         new bootstrap.Carousel(carouselElement, {
+           interval: 4000
+         });
+       });
+ 
+       // Handle the carousel thumbnails click
+       var thumbnailSelectors = document.querySelectorAll('[id^=carousel-selector]');
+       thumbnailSelectors.forEach(function (selector) {
+         selector.addEventListener('click', function () {
+           var id_selector = this.getAttribute('id');
+           var id = id_selector.substr(id_selector.length - 1);
+           id = parseInt(id);
+           var carousel = bootstrap.Carousel.getInstance(document.getElementById('myCarousel'));
+           carousel.to(id);
+           thumbnailSelectors.forEach(function (sel) {
+             sel.classList.remove('selected');
+           });
+           this.classList.add('selected');
+         });
+       });
+ 
+       // When the carousel slides, auto update
+       var myCarousel = document.getElementById('myCarousel');
+       myCarousel.addEventListener('slid.bs.carousel', function () {
+         var activeItem = myCarousel.querySelector('.carousel-item.active');
+         var id = activeItem.getAttribute('data-slide-number');
+         id = parseInt(id);
+         thumbnailSelectors.forEach(function (selector) {
+           selector.classList.remove('selected');
+         });
+         document.getElementById('carousel-selector-' + id).classList.add('selected');
+       });
     };
     return (
         <div className="home">
@@ -120,6 +156,7 @@ function Home() {
 
             <div className="container my-5" id="quotes">
                 <div className="row grid-sizer" data-masonry='{"percentPosition": true }' style={{ position: "relative", height: "1187.33px" }}>
+                    
                     <div className=" grid-item col-sm-6 col-lg-4 mb-4 "  style={{position: "absolute", left: "0%", top: "0%"}}>
                         <div className="card">
                             <img src={homePhotos.festivalPhoto} className="card-img-top" alt="picture of Poseidon booth at festival" />

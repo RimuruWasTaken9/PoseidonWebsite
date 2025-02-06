@@ -1,4 +1,7 @@
 import {
+  require_react_dom
+} from "./chunk-IPYILTUR.js";
+import {
   Action,
   Await,
   BrowserRouter,
@@ -111,9 +114,6 @@ import {
   useSubmit,
   useViewTransitionState
 } from "./chunk-FXZDWUH3.js";
-import {
-  require_react_dom
-} from "./chunk-IPYILTUR.js";
 import {
   require_react
 } from "./chunk-4SFRHSJ3.js";
