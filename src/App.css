@@ -42,7 +42,7 @@ header {
   color: white;
 }
 
-#footer h5 {
+#footer h4 {
   text-align: left !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -440,7 +440,7 @@ section > hr {
 .history > h2, .history > p {
   color: #00529b;
   font-family: "kalam-bold", Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 #footer-container p {
   color: white;

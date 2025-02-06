@@ -1,8 +1,10 @@
 import React from "react";
 import { footerPhotos } from "../assets/bakeryPhotos";
 
-function Footer() {
 
+function Footer() {
+    let now = new Date()
+    let year = now.getFullYear()
     return (
         <div className="mt-5" id="footer">
 
@@ -12,7 +14,7 @@ function Footer() {
                     <div className="row mt-4">
                         {/* <!--Grid column--> */}
                         <div className="col-lg-4 col-md-12 mb-4 mb-md-0 about-text">
-                            <h5 className="text-uppercase mb-4">About company</h5>
+                            <h4 className="text-uppercase  mb-4">About company</h4>
                             <p>
                                 The <span>Poseidon Bakery</span>, founded in 1923, began supplying New York with
                                 authentic treats from ancient Greece.
@@ -28,7 +30,7 @@ function Footer() {
 
                         {/* <!--Grid column--> */}
                         <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
-                            <h5 className="text-uppercase mb-4 pb-1">CONTACT US</h5>
+                            <h4 className="text-uppercase mb-4 pb-1">CONTACT US</h4>
                             <ul className="icon-list fa-ul ">
                                 <li className="mb-3 home-icon">
                                     <span className="ms-2">629 9th Avenue, New York, NY,
@@ -58,7 +60,7 @@ function Footer() {
 
                         {/* <!--Grid column--> */}
                         <div className="col-lg-4 col-md-12 mb-4 mb-md-0 hours">
-                            <h5 className="text-uppercase mb-4">Operating hours</h5>
+                            <h4 className="text-uppercase mb-4">Operating hours</h4>
 
                             <table className="table text-center text-white">
                                 <tbody className="font-weight-normal">
@@ -76,14 +78,9 @@ function Footer() {
                         {/* <!--Grid column--> */}
                     </div>
                     <div className="copyright my-2">
-                        <script type="text/javascript">
-                            now = new Date();
-                            year = now.getFullYear();
-                        </script>
-                        &copy;
-                        <script type="text/javascript">
-                            document.write(year);
-                        </script> POSEIDON BAKERY
+                        
+                
+© {year} POSEIDON BAKERY
                     </div>
                 </div>
                 {/* <!-- Grid container --> */}

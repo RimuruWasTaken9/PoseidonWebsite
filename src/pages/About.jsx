@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Mural from '../components/Mural';
 import History from '../components/History';
 import HomeButton from '../components/HomeButton';
+import '../App.css';
 
 function About() {
     return (
