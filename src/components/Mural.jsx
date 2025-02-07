@@ -1,4 +1,3 @@
-import { useLocation, Link } from "react-router-dom";
 import React from 'react';
 import { aboutPhotos } from "../assets/bakeryPhotos";
 

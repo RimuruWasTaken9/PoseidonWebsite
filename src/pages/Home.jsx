@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { footerPhotos, homePhotos } from "../assets/bakeryPhotos";
+import { homePhotos } from "../assets/bakeryPhotos";
 import React from 'react';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import HomeButton from "../components/HomeButton";
 import MasonryLayout from "../components/MasonryLayout";
 import '../App.css';
 
@@ -156,10 +157,7 @@ function Home() {
             </div>
             <hr />
 
-            <div className="home-button"><Link to="/#" ><button className="btn btn-primary px-4 my-3" type="button">
-                Home ↑
-            </button></Link>
-            </div>
+            <HomeButton />
             <Footer />
         </div>
     );

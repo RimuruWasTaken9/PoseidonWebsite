@@ -1,6 +1,4 @@
-import { useLocation, Link } from "react-router-dom";
 import React from 'react';
-import { aboutPhotos } from "../assets/bakeryPhotos";
 
 function History() {
     return (
@@ -9,7 +7,7 @@ function History() {
       <h2>About Us</h2>
       <p>Over 100 years ago, Demetrius Anagnostou began baking delicious treats in his small shop on the island of
         Corfu. His dreams led him to New York in 1923, where he settled on the west side of Manhattan, and earned a
-        living doing what he knew best - baking.
+        living doing what he knew <br /> best - baking.
         Together with his eldest son Michael, the Poseidon Bakery was founded in the heart of Hell's Kitchen.
 
         For decades, Michael and his beloved wife Menina worked side-by-side making some of the most amazing, authentic
