@@ -52,7 +52,7 @@ function Footer() {
                                     src={footerPhotos.facebookIcon} alt="Facebook Link" /></a>
                                 <a href="https://twitter.com/PoseidonBakery" target="_blank"> <img src={footerPhotos.twitterIcon}
                                     className="twitter-icon" alt="Twitter Link" /></a>
-                                <a href="http://instagram.com/poseidonbakery" target="_blank"> <img
+                                <a href="https://instagram.com/poseidonbakery" target="_blank"> <img
                                     src={footerPhotos.instagramIcon} className="instagram-icon" alt="instagram Link" /></a>
                             </div>
                         </div>

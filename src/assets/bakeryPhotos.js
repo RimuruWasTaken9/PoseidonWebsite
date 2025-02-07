@@ -252,14 +252,16 @@ export const footerPhotos = {
 }
 
 export const homePhotos = {
-    vasilopitaPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332713/vasilopita_mq1xgn.jpg",
-    koulouraPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332708/kouloura_adp5fb.jpg",
-    finikiaPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332705/finikia_v3j0x4.jpg",
-    baklavaPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332702/baklava_qusjqu.jpg",
-    storefrontPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332499/storefront_wczjso.jpg",
+    carouselPhotos: [
+        "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332499/storefront_wczjso.jpg",
+        "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332708/kouloura_adp5fb.jpg",
+        "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332702/baklava_qusjqu.jpg",
+        "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332705/finikia_v3j0x4.jpg",
+        "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332496/indoor_zl7myu.jpg",
+        "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332713/vasilopita_mq1xgn.jpg"
+    ],
     newspaperPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332498/newspaper_sls58r.jpg",
     filoPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332497/lili-filo_lphasc.jpg",
-    indoorPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332496/indoor_zl7myu.jpg",
     festivalPhoto: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332496/festival_hojhxn.jpg",
 }   
 
