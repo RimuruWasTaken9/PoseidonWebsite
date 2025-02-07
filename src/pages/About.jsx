@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { footerPhotos, aboutPhotos } from "../assets/bakeryPhotos";
+import { aboutPhotos } from "../assets/bakeryPhotos";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Mural from '../components/Mural';

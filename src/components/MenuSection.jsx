@@ -1,10 +1,8 @@
-import { menuPhotos } from "../assets/bakeryPhotos";
+
 import MenuItem from "./MenuItem";
 
 function MenuSection(props) {
-    let menuSection = props.sectionID;
-    let menuItems = menuPhotos[menuSection];
-    console.log(menuItems);
+ 
     return (
         <section id={props.sectionID} className="menu-item-group">
         <h2>{props.title}</h2>
