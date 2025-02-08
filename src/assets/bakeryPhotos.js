@@ -1,6 +1,7 @@
 export const menuInfo = [
     {
         sectionName: "Popular Items",
+        id: "popular-items",
         items: [{
             name: "Baklava",
             photo: "https://res.cloudinary.com/dpbsgzrho/image/upload/q_auto,f_auto/v1737332702/baklava_qusjqu.jpg",
@@ -50,6 +51,7 @@ export const menuInfo = [
     },
     {
         sectionName: "Sweets",
+        id: "sweets",
         description: "Our traditional, hand-made Greek pastries are unparalleled. After all, we're the place that Bobby Flay goes when he's in the mood for Greek desserts!" ,
         items: [
             {
@@ -81,6 +83,7 @@ export const menuInfo = [
     },
     {
         sectionName: "Savories",
+        id: "savories",
         description: "Whether you're looking for a delicious lunch, light dinner or exquisite tray of hors d'oeuvres, these are a few of our classic savory specialties. While our individual pies make a great meal, each is available in cocktail sizes too. Perfect for parties or corporate office lunches. Ask about our trays-to-go.", 
         items: [
             {
@@ -107,6 +110,7 @@ export const menuInfo = [
     },
     {
         sectionName: "Cookies & Treats",
+        id: "cookies",
         items: [
             {
                 name: "Finikia",
@@ -133,6 +137,7 @@ export const menuInfo = [
     },
     {
         sectionName: "Strudels",
+        id: "strudels",
         description: "Our hand-made strudels are not traditional Greek fare - but foodie favorites introduced from our Austrian side of the family by Menina in the 1940s. She was the Heart & Soul of the business. Strudels are sold individually wrapped or sliced, by the pound. Both are wrapped in golden, crispy phyllo.",
         clarification: "*there are no nuts in our strudels*",
         items: [
@@ -180,6 +185,7 @@ export const menuInfo = [
     },
     {
         sectionName: "Other Specialty Items",
+        id: "specialty-items",
         description: "At the Poseidon Bakery, you'll discover some hard-to-find specialty items.",
         items: [
             {

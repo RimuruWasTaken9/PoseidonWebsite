@@ -1,4 +1,4 @@
-
+import MenuNavbarItem from "./MenuNavbarItem";
 
 function MenuNavbar() {
 
@@ -7,12 +7,38 @@ function MenuNavbar() {
       <div className="scroll-container">
         <div id="menu-navbar" className="menu-navbar">
           <ul id="menu" className="menu">
-            <li className="item" id="nav-popular-items"><a href="#popular-items">Popular Items</a></li>
-            <li className="item" id="nav-sweets"><a href="#sweets">Sweets</a></li>
-            <li className="item" id="nav-savories"><a href="#savories">Savories</a></li>
-            <li className="item" id="nav-cookies"><a href="#cookies">Cookies & Treats</a></li>
-            <li className="item" id="nav-strudels"><a href="#strudels">Strudels</a></li>
-            <li className="item" id="nav-specialties"><a href="#specialties">Other Specialties</a></li>
+            
+            <MenuNavbarItem
+            id="nav-popular-items" 
+            destination="#popular-items" 
+            sectionName="Popular Items" 
+            />
+
+            <MenuNavbarItem 
+            id="nav-sweets"
+            destination="#sweets" 
+            sectionName="Sweets" />
+
+            <MenuNavbarItem 
+            id="nav-savories"
+            destination="#savories" 
+            sectionName="Savories" />
+
+            <MenuNavbarItem 
+            id="nav-cookies"
+            destination="#cookies" 
+            sectionName="Cookies & Treats" />
+
+            <MenuNavbarItem 
+            id="nav-strudels"
+            destination="#strudels" 
+            sectionName="Strudels" />
+
+            <MenuNavbarItem 
+            id="nav-specialty-items"
+            destination="#specialty-items" 
+            sectionName="Other Specialties" />
+            
           </ul>
         </div>
       </div>

@@ -72,7 +72,7 @@ function CarouselComponent() {
                         <div className="test-carousel" key={index}>{item}</div>
                     ))}
                 </Carousel>
-
+                    
             </div>
       )
 }

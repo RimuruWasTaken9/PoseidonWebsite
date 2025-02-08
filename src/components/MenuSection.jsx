@@ -4,7 +4,7 @@ import MenuItem from "./MenuItem";
 function MenuSection(props) {
  
     return (
-        <section id={props.sectionID} className="menu-item-group">
+        <section id={props.id} className="menu-item-group">
         <h2>{props.title}</h2>
 
         {props.description && <p>{props.description}</p>}
