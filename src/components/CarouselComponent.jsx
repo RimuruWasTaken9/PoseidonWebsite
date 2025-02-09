@@ -61,7 +61,7 @@ function CarouselComponent() {
                 autoPlay={true}
                 autoPlaySpeed={4000}
                 keyBoardControl={true}
-                customTransition="all .5"
+                customTransition="transform 500ms ease-in-out"
                 transitionDuration={500}
                 containerClass=""
                

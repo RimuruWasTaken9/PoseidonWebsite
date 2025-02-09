@@ -128,10 +128,10 @@ hr {
 }
 #photos {
   background-color: #00529b;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 15%;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .carousel-item {
@@ -149,7 +149,7 @@ hr {
  
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: auto;
 }
 .carousel-container img {
