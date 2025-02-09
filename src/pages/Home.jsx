@@ -12,12 +12,15 @@ function Home() {
 
 
     return (
-        <div className="home">
+        <div className="home ">
             <Header />
-            
+            <div className="carousel-item active " id="photos">
             <CarouselComponent />
-
+            
+            </div>
             <Jumbotron />
+            
+           
 
             <hr />
 
