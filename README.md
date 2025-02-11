@@ -17,8 +17,8 @@ This is the source code for the Poseidon Bakery website, a family-owned Greek ba
 [Poseidon Bakery on Yelp](https://www.yelp.com/biz/poseidon-bakery-new-york)\
 [Poseidon Bakery on TripAdvisor](https://www.tripadvisor.com/Restaurant_Review-g60763-d888709-Reviews-Poseidon_Bakery-New_York_City_New_York.html)
 
-✨ Homepage Preview\
-![Website Preview](https://res.cloudinary.com/dpbsgzrho/image/upload/v1739248129/bakery6_jnm5r6.gif)
+
+![✨ Homepage Preview]([https://res.cloudinary.com/dpbsgzrho/image/upload/v1739248129/bakery6_jnm5r6.gif](https://github.com/user-attachments/assets/2d90133f-4f2c-41e4-851c-4090b2105715))
 📱 Responsive Design
 
 ### 🛠️ Tech Stack
